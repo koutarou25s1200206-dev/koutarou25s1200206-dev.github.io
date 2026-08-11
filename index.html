@@ -2,104 +2,108 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>KOUTAROU SHIMIZU — 清水康太朗</title>
-<meta name="description" content="KOUTAROU SHIMIZU / 清水康太朗。投資、起業、コミュニケーションを軸に活動する個人サイト。これまでの歩み、現在の活動、これからのビジョン。">
-<meta name="author" content="清水康太朗">
-<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>KOUTAROU SHIMIZU — Official Personal Website</title>
+<meta name="description" content="清水康太朗 / KOUTAROU SHIMIZU。投資、起業、人とのコミュニケーションを軸に活動するパーソナルサイト。">
+<meta name="robots" content="index,follow">
 <link rel="canonical" href="https://koutarou25s1200206-dev.github.io/">
-<meta property="og:title" content="KOUTAROU SHIMIZU — 清水康太朗">
-<meta property="og:description" content="INVEST. CREATE. CONNECT.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://koutarou25s1200206-dev.github.io/">
-<meta property="og:locale" content="ja_JP">
-<meta name="theme-color" content="#050505">
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Person","name":"清水康太朗","alternateName":"KOUTAROU SHIMIZU","url":"https://koutarou25s1200206-dev.github.io/","sameAs":["https://www.instagram.com/kou.n_n/"],"knowsAbout":["投資","起業","ビジネス","コミュニケーション"]}
-</script>
 <style>
-:root{--bg:#f5f5f7;--ink:#090909;--muted:#737373;--white:#fff;--black:#050505;--line:#dedee3;--accent:#0071e3}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Hiragino Sans","Yu Gothic",sans-serif;overflow-x:hidden}a{color:inherit;text-decoration:none}button{font:inherit}
-.cursor{position:fixed;width:14px;height:14px;border:1px solid #111;border-radius:50%;pointer-events:none;z-index:99;transform:translate(-50%,-50%);mix-blend-mode:difference;background:#fff;transition:width .2s,height .2s;display:none}@media(pointer:fine){.cursor{display:block}}
-nav{position:fixed;top:0;left:0;right:0;height:58px;z-index:50;display:flex;align-items:center;justify-content:space-between;padding:0 5%;background:rgba(245,245,247,.72);backdrop-filter:blur(24px);border-bottom:1px solid rgba(0,0,0,.07)}.brand{font-size:13px;font-weight:700;letter-spacing:.04em}.navlinks{display:flex;gap:25px;font-size:11px;color:#333}.navlinks a:hover{opacity:.45}
-.hero{min-height:100svh;padding:110px 7vw 60px;display:flex;align-items:flex-end;position:relative;overflow:hidden;background:radial-gradient(circle at 72% 25%,#fff 0,#f5f5f7 36%,#e9e9ed 100%)}.hero:before{content:"";position:absolute;width:55vw;height:55vw;border-radius:50%;border:1px solid rgba(0,0,0,.08);right:-20vw;top:10vh}.hero:after{content:"";position:absolute;width:35vw;height:35vw;border-radius:50%;border:1px solid rgba(0,0,0,.06);right:-10vw;top:20vh}.hero-inner{width:100%;position:relative;z-index:2;max-width:1500px;margin:auto}.kicker{font-size:11px;letter-spacing:.25em;color:#777;margin-bottom:25px}.hero h1{font-size:clamp(68px,12vw,180px);line-height:.82;letter-spacing:-.075em;margin:0;font-weight:750}.hero-jp{font-size:clamp(17px,2vw,28px);font-weight:600;margin-top:27px}.hero-copy{display:flex;justify-content:space-between;align-items:flex-end;margin-top:65px;gap:40px}.hero-copy strong{font-size:clamp(26px,4vw,58px);letter-spacing:-.045em}.hero-copy p{max-width:430px;color:#666;font-size:14px;line-height:1.9}.scroll{margin-top:70px;color:#777;font-size:10px;letter-spacing:.25em}.orb{position:absolute;right:10%;top:27%;width:180px;height:180px;border-radius:50%;background:linear-gradient(145deg,#fff,#d9d9de);box-shadow:inset -20px -20px 50px rgba(0,0,0,.07),20px 30px 80px rgba(0,0,0,.1);animation:float 6s ease-in-out infinite}.orb:after{content:"";position:absolute;inset:20%;border-radius:50%;border:1px solid rgba(0,0,0,.12)}@keyframes float{50%{transform:translateY(-18px) rotate(8deg)}}
-section{padding:140px 7vw;max-width:1500px;margin:auto}.label{font-size:10px;letter-spacing:.25em;color:#777}.title{font-size:clamp(44px,7vw,92px);line-height:1;letter-spacing:-.06em;margin:13px 0 65px}.intro{font-size:clamp(21px,2.5vw,36px);line-height:1.45;letter-spacing:-.025em;max-width:900px}
-.reveal{opacity:0;transform:translateY(30px);transition:opacity .8s ease,transform .8s ease}.reveal.show{opacity:1;transform:none}
-.story{background:#fff;max-width:none}.story-inner{max-width:1500px;margin:auto}.timeline{position:relative;border-top:1px solid #cfcfd4;display:grid;grid-template-columns:repeat(6,1fr)}.t{padding:30px 22px 20px 0;position:relative}.t:before{content:"";position:absolute;top:-4px;left:0;width:8px;height:8px;background:#111;border-radius:50%}.year{font-size:12px;font-weight:700}.t h3{font-size:18px;margin:16px 0 6px}.t p{font-size:12px;color:#777;line-height:1.8;margin:0}
-.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.card{background:#fff;border-radius:26px;min-height:280px;padding:30px;position:relative;overflow:hidden;border:1px solid rgba(0,0,0,.05);transition:transform .35s,box-shadow .35s}.card:hover{transform:translateY(-8px);box-shadow:0 22px 55px rgba(0,0,0,.09)}.card .num{font-size:10px;color:#888;letter-spacing:.2em}.card h3{font-size:26px;letter-spacing:-.04em;margin:60px 0 8px}.card p{font-size:13px;color:#777;margin:0;max-width:300px}.arrow{position:absolute;right:25px;bottom:22px;font-size:22px}
-.black{background:var(--black);color:#fff;max-width:none}.black-inner{max-width:1500px;margin:auto}.black .label{color:#888}.black .title{font-size:clamp(55px,10vw,145px)}.manifesto{display:grid;grid-template-columns:1fr 1fr;gap:10vw;align-items:end}.manifesto .big{font-size:clamp(30px,4vw,58px);line-height:1.1;letter-spacing:-.045em}.manifesto p{color:#999;line-height:2;font-size:14px}
-.metrics{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid #333;border-bottom:1px solid #333;margin-top:90px}.metric{padding:28px 20px 28px 0;border-right:1px solid #333}.metric:last-child{border-right:0}.metric b{display:block;font-size:44px;letter-spacing:-.05em}.metric span{font-size:11px;color:#888}
-.future{display:grid;grid-template-columns:1.3fr 1fr;gap:8vw}.roadmap{border-top:1px solid var(--line)}.road{display:grid;grid-template-columns:110px 1fr;gap:30px;padding:25px 0;border-bottom:1px solid var(--line)}.road strong{font-size:13px}.road h3{margin:0 0 5px;font-size:20px}.road p{margin:0;color:#777;font-size:12px}
-.connect{max-width:none;background:#e8e8ed;padding-top:100px;padding-bottom:70px}.connect-inner{max-width:1500px;margin:auto}.connect h2{font-size:clamp(58px,11vw,160px);line-height:.84;letter-spacing:-.07em;margin:15px 0 65px}.pill{display:inline-flex;align-items:center;gap:12px;border-radius:999px;background:#111;color:#fff;padding:15px 22px;font-size:13px;transition:transform .2s}.pill:hover{transform:scale(1.03)}footer{font-size:10px;color:#777;margin-top:70px;display:flex;justify-content:space-between}
-#progress{position:fixed;top:0;left:0;height:2px;width:0;background:#111;z-index:100}
-@media(max-width:850px){.navlinks{display:none}.hero{padding:105px 6vw 55px}.orb{width:100px;height:100px;right:8%;top:30%}.hero-copy,.manifesto,.future{display:block}.hero-copy p{margin-top:30px}.timeline{grid-template-columns:1fr 1fr;gap:15px}.cards{grid-template-columns:1fr}.metrics{grid-template-columns:1fr 1fr}.metric:nth-child(2){border-right:0}.metric{border-bottom:1px solid #333}.metric b{font-size:35px}.road{grid-template-columns:80px 1fr}section{padding:100px 6vw}}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f5f5f7;color:#111;font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue","Noto Sans JP",Arial,sans-serif;letter-spacing:-.02em}
+body:after{content:"";position:fixed;inset:0;pointer-events:none;opacity:.035;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.35'/%3E%3C/svg%3E")}
+.progress{position:fixed;top:0;left:0;height:3px;background:#111;width:0;z-index:99}
+nav{position:fixed;top:0;left:0;right:0;height:64px;display:flex;align-items:center;justify-content:space-between;padding:0 5vw;background:rgba(245,245,247,.78);backdrop-filter:blur(18px);z-index:50;border-bottom:1px solid #ddd}
+nav b{font-size:14px;letter-spacing:.03em}nav .links{display:flex;gap:25px;font-size:12px}nav a{color:#111;text-decoration:none}
+.hero{min-height:100vh;padding:150px 11vw 90px;display:flex;flex-direction:column;justify-content:center}
+.kicker{font-size:12px;letter-spacing:.25em;color:#777;margin-bottom:30px}.hero h1{font-size:clamp(65px,12vw,180px);line-height:.82;letter-spacing:-.075em;margin:0;font-weight:800;max-width:1100px}.hero h1 span{display:block}
+.hero-sub{margin-top:65px;max-width:620px;font-size:clamp(20px,3vw,38px);font-weight:650;line-height:1.12}.hero p{font-size:15px;color:#666;line-height:1.9;max-width:550px}
+.scroll{margin-top:80px;font-size:10px;letter-spacing:.25em;color:#777}.scroll:after{content:"";display:block;width:1px;height:55px;background:#111;margin-top:14px}
+section{padding:130px 11vw}.label{font-size:11px;letter-spacing:.25em;color:#888;margin-bottom:35px}.section-title{font-size:clamp(42px,7vw,95px);line-height:.95;margin:0 0 70px;letter-spacing:-.06em}
+.timeline{position:relative;max-width:1000px;margin:auto}.timeline:before{content:"";position:absolute;left:105px;top:0;bottom:0;width:1px;background:#ccc}
+.event{display:grid;grid-template-columns:150px 1fr;gap:55px;padding:0 0 80px;position:relative}.year{font-size:44px;font-weight:750;letter-spacing:-.06em}.event-dot{position:absolute;left:99px;top:12px;width:13px;height:13px;border-radius:50%;background:#111;border:3px solid #f5f5f7}.event h3{font-size:27px;margin:0 0 12px}.event p{margin:0;color:#777;line-height:1.8;max-width:650px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{min-height:270px;background:#fff;border-radius:28px;padding:30px;display:flex;flex-direction:column;justify-content:space-between;transition:.4s;box-shadow:0 1px 0 rgba(0,0,0,.04)}.card:hover{transform:translateY(-8px);box-shadow:0 18px 45px rgba(0,0,0,.09)}.num{font-size:10px;letter-spacing:.2em;color:#999}.card h3{font-size:27px;margin:0 0 10px}.card p{color:#777;line-height:1.7;margin:0;font-size:14px}.arrow{font-size:24px;align-self:flex-end}
+.black{background:#000;color:#fff}.black .label{color:#777}.mind{font-size:clamp(35px,6vw,80px);line-height:1.02;max-width:1000px;letter-spacing:-.055em}.mind em{color:#777;font-style:normal}
+.now{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:start}.status{border-top:1px solid #ccc}.status-row{display:flex;justify-content:space-between;padding:22px 0;border-bottom:1px solid #ccc}.status-row span:first-child{font-size:11px;letter-spacing:.18em;color:#888}.status-row span:last-child{font-weight:650}
+.future{background:#e8e8ed}.road{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.road div{padding:35px;background:#fff;border-radius:28px;min-height:230px}.road small{letter-spacing:.2em;color:#888}.road h3{font-size:35px;margin:45px 0 10px}.road p{color:#666}
+.connect{text-align:center;padding-bottom:150px}.connect h2{font-size:clamp(50px,9vw,130px);letter-spacing:-.07em;margin:0 0 35px}.ig{display:inline-block;padding:16px 28px;border-radius:99px;background:#111;color:#fff;text-decoration:none;font-weight:650;transition:.3s}.ig:hover{transform:scale(1.04)}
+footer{padding:30px 11vw;display:flex;justify-content:space-between;font-size:11px;color:#888;border-top:1px solid #ddd}
+.reveal{opacity:0;transform:translateY(35px);transition:opacity .9s ease,transform .9s ease}.reveal.show{opacity:1;transform:none}
+.secret{display:none;position:fixed;inset:0;background:#000;color:#fff;z-index:200;align-items:center;justify-content:center;text-align:center}.secret.on{display:flex}.secret h2{font-size:clamp(55px,10vw,140px);margin:0;letter-spacing:-.08em}.secret p{color:#888}.close{position:absolute;right:30px;top:25px;cursor:pointer;font-size:22px}
+@media(max-width:800px){nav{height:55px;padding:0 5vw}.links{display:none!important}.hero{padding:120px 7vw 70px}.hero h1{font-size:19vw}.hero-sub{margin-top:45px}section{padding:90px 7vw}.cards,.road,.now{grid-template-columns:1fr}.timeline:before{left:70px}.event{grid-template-columns:95px 1fr;gap:20px}.year{font-size:31px}.event-dot{left:64px}.event h3{font-size:23px}footer{padding:25px 7vw;display:block}footer span{display:block;margin:5px 0}}
 </style>
 </head>
 <body>
-<div id="progress"></div><div class="cursor"></div>
-<nav><a class="brand" href="#top">KOUTAROU SHIMIZU</a><div class="navlinks"><a href="#story">STORY</a><a href="#work">WORK</a><a href="#mind">MIND</a><a href="#future">FUTURE</a><a href="#connect">CONNECT</a></div></nav>
+<div class="progress" id="progress"></div>
+<nav><b>KOUTAROU SHIMIZU</b><div class="links"><a href="#story">STORY</a><a href="#work">WORK</a><a href="#mind">MIND</a><a href="#future">FUTURE</a><a href="#connect">CONNECT</a></div></nav>
 
-<main id="top">
-<section class="hero">
-<div class="hero-inner">
-<div class="kicker">OFFICIAL PERSONAL WEBSITE / 2026</div>
-<h1>KOUTAROU<br>SHIMIZU</h1>
-<div class="hero-jp">清水 康太朗</div>
-<div class="hero-copy"><strong>INVEST.<br>CREATE.<br>CONNECT.</strong><p>投資する。創る。人とつながる。<br>興味を行動に変えながら、未来の選択肢を増やしていく。</p></div>
-<div class="scroll">SCROLL TO EXPLORE ↓</div>
-</div><div class="orb"></div>
+<header class="hero">
+<div class="kicker">OFFICIAL PERSONAL WEBSITE</div>
+<h1><span>KOUTAROU</span><span>SHIMIZU</span></h1>
+<div class="hero-sub">INVEST. CREATE. CONNECT.</div>
+<p>清水 康太朗。投資する。創る。人とつながる。<br>まだ決まっていない未来を、自分でつくっていく。</p>
+<div class="scroll">SCROLL ↓</div>
+</header>
+
+<section id="story">
+<div class="label">01 / STORY</div><h2 class="section-title">これまで。</h2>
+<div class="timeline">
+<div class="event reveal"><div class="year">2008</div><i class="event-dot"></i><div><h3>東京で生まれる</h3><p>2008年、東京で誕生。</p></div></div>
+<div class="event reveal"><div class="year">2012</div><i class="event-dot"></i><div><h3>千葉へ</h3><p>千葉へ移り、幼稚園・地元の小中学校で過ごす。</p></div></div>
+<div class="event reveal"><div class="year">2024</div><i class="event-dot"></i><div><h3>高校生活</h3><p>千葉明徳高等学校・特別進学コースへ進学。その後、自分に合う学び方を求めて転学。</p></div></div>
+<div class="event reveal"><div class="year">2026</div><i class="event-dot"></i><div><h3>S高等学校で活動</h3><p>N高グループの活動、投資、ビジネスなど、興味を持った領域へ行動を広げる。</p></div></div>
+</div></section>
+
+<section id="work">
+<div class="label">02 / WORK</div><h2 class="section-title">いま、やっていること。</h2>
+<div class="cards">
+<div class="card reveal"><span class="num">01 — STUDENT</span><div><h3>N高グループ生徒会</h3><p>学生コミュニティの中で、人と関わりながら活動する。</p></div><span class="arrow">↗</span></div>
+<div class="card reveal"><span class="num">02 — INVESTMENT</span><div><h3>N高グループ投資部</h3><p>投資を学び、市場や企業について考える。</p></div><span class="arrow">↗</span></div>
+<div class="card reveal"><span class="num">03 — BUSINESS</span><div><h3>株式会社クレール</h3><p>専務取締役として、会社や事業に関わる。</p></div><span class="arrow">↗</span></div>
+<div class="card reveal"><span class="num">04 — INVESTOR</span><div><h3>投資</h3><p>企業の未来を考え、情報を集め、意思決定する。</p></div><span class="arrow">↗</span></div>
+<div class="card reveal"><span class="num">05 — BEAUTY</span><div><h3>美容</h3><p>美容への興味を深め、知識や体験を積み重ねる。</p></div><span class="arrow">↗</span></div>
+<div class="card reveal"><span class="num">06 — PEOPLE</span><div><h3>コミュニケーション</h3><p>人の話を聞き、考えを知り、新しい関係をつくる。</p></div><span class="arrow">↗</span></div>
+</div></section>
+
+<section id="mind" class="black">
+<div class="label">03 / MINDSET</div><div class="mind reveal">「興味がある」<br>で終わらせない。<br><em>調べる。試す。人に会う。</em><br>そして、動く。</div>
 </section>
 
-<section id="story" class="story"><div class="story-inner">
-<div class="label">01 / STORY</div><div class="title">ここまでの<br>ストーリー。</div>
-<p class="intro reveal">東京で生まれ、千葉で育つ。学校やコミュニティでの経験を重ねながら、投資・ビジネス・人とのコミュニケーションへ興味を広げてきた。</p>
-<div class="timeline" style="margin-top:75px">
-<div class="t reveal"><div class="year">2008</div><h3>TOKYO</h3><p>東京で生まれる。</p></div>
-<div class="t reveal"><div class="year">2012</div><h3>CHIBA</h3><p>千葉へ移り住む。</p></div>
-<div class="t reveal"><div class="year">2024</div><h3>HIGH SCHOOL</h3><p>千葉明徳高等学校・特別進学コースへ。</p></div>
-<div class="t reveal"><div class="year">TURNING POINT</div><h3>CHANGE</h3><p>進路や学び方を見つめ直し、新しい環境へ。</p></div>
-<div class="t reveal"><div class="year">2026</div><h3>S HIGH</h3><p>S高等学校で学び、活動する。</p></div>
-<div class="t reveal"><div class="year">NOW</div><h3>BUILDING</h3><p>投資・起業・人とのつながりを深める。</p></div>
+<section>
+<div class="label">04 / CURRENTLY</div><h2 class="section-title">現在地。</h2>
+<div class="now">
+<div><p style="font-size:22px;line-height:1.7;color:#555">投資と起業を中心に、将来の選択肢を増やすための経験を積んでいる。</p></div>
+<div class="status">
+<div class="status-row"><span>STUDENT</span><span>S高等学校</span></div>
+<div class="status-row"><span>INVESTMENT</span><span>投資・企業研究</span></div>
+<div class="status-row"><span>BUSINESS</span><span>株式会社クレール</span></div>
+<div class="status-row"><span>INTEREST</span><span>起業 / 投資</span></div>
 </div></div></section>
 
-<section id="work"><div class="label">02 / WORK & ACTIVITY</div><div class="title">いま、やっていること。</div>
-<div class="cards">
-<div class="card reveal"><div class="num">01 — STUDENT</div><h3>N高グループ生徒会</h3><p>学生コミュニティの中で、人と関わりながら活動する。</p><div class="arrow">↗</div></div>
-<div class="card reveal"><div class="num">02 — INVESTMENT</div><h3>N高グループ投資部</h3><p>投資を学び、市場や企業について考える。</p><div class="arrow">↗</div></div>
-<div class="card reveal"><div class="num">03 — BUSINESS</div><h3>株式会社クレール</h3><p>専務取締役として、会社や事業に関わる。</p><div class="arrow">↗</div></div>
-<div class="card reveal"><div class="num">04 — INVESTOR</div><h3>投資</h3><p>企業の未来を考え、情報を集め、意思決定する。</p><div class="arrow">↗</div></div>
-<div class="card reveal"><div class="num">05 — BEAUTY</div><h3>美容</h3><p>美容への興味を深め、知識や体験を積み重ねる。</p><div class="arrow">↗</div></div>
-<div class="card reveal"><div class="num">06 — PEOPLE</div><h3>コミュニケーション</h3><p>人の話を聞き、考えを知り、新しい関係をつくる。</p><div class="arrow">↗</div></div>
+<section id="future" class="future">
+<div class="label">05 / FUTURE</div><h2 class="section-title">これから。</h2>
+<div class="road">
+<div class="reveal"><small>NOW</small><h3>学ぶ</h3><p>投資・経営・人との関わりを深める。</p></div>
+<div class="reveal"><small>NEXT</small><h3>挑戦する</h3><p>自分で事業をつくり、価値を生み出す。</p></div>
+<div class="reveal"><small>VISION</small><h3>起業する</h3><p>投資と事業の両方から、未来をつくる。</p></div>
 </div></section>
 
-<section id="mind" class="black"><div class="black-inner">
-<div class="label">03 / MINDSET</div><div class="title">考えていること。</div>
-<div class="manifesto"><div class="big reveal">「面白そう」を<br>「やってみる」に。</div><p class="reveal">投資も起業も、未来を完全に予測することではないと思っています。情報を集め、自分で考え、試して、修正する。その繰り返しから新しい可能性をつくっていきたい。</p></div>
-<div class="metrics">
-<div class="metric reveal"><b>01</b><span>COMMUNICATION</span></div><div class="metric reveal"><b>02</b><span>INVESTMENT</span></div><div class="metric reveal"><b>03</b><span>CREATION</span></div><div class="metric reveal"><b>∞</b><span>LEARNING</span></div>
-</div></div></section>
+<section id="connect" class="connect">
+<div class="label">06 / CONNECT</div>
+<h2>LET'S CONNECT.</h2>
+<p style="color:#777;margin-bottom:30px">日々の活動はInstagramで。</p>
+<a class="ig" href="https://www.instagram.com/kou.n_n/" target="_blank" rel="noopener">Instagram ↗</a>
+</section>
 
-<section id="future"><div class="label">04 / FUTURE</div><div class="title">これから。</div>
-<div class="future"><div class="intro reveal">起業。投資。<br>そして、自分だけの価値をつくる。</div>
-<div class="roadmap">
-<div class="road reveal"><strong>NOW</strong><div><h3>学ぶ</h3><p>投資・ビジネス・人について学び続ける。</p></div></div>
-<div class="road reveal"><strong>NEXT</strong><div><h3>つくる</h3><p>アイデアを事業やプロジェクトに変える。</p></div></div>
-<div class="road reveal"><strong>FUTURE</strong><div><h3>広げる</h3><p>人と資本をつなぎ、より大きな価値を生み出す。</p></div></div>
-</div></div></section>
-
-<section id="connect" class="connect"><div class="connect-inner">
-<div class="label">05 / CONNECT</div><h2>LET'S<br>MAKE<br>SOMETHING.</h2>
-<p class="intro">面白いことをしたい。<br>投資や起業について話したい。<br>一緒に何かを始めたい。</p>
-<a class="pill" href="https://www.instagram.com/kou.n_n/" target="_blank" rel="noopener">Instagram&nbsp; @kou.n_n&nbsp; ↗</a>
 <footer><span>© 2026 KOUTAROU SHIMIZU</span><span>INVEST. CREATE. CONNECT.</span></footer>
-</div></section>
-</main>
+
+<div class="secret" id="secret"><div class="close" onclick="closeSecret()">×</div><div><div class="label">KOUTAROU MODE</div><h2>KEEP<br>GOING.</h2><p>秘密のページを見つけた。</p></div></div>
+
 <script>
-const cursor=document.querySelector('.cursor');
-document.addEventListener('mousemove',e=>{if(cursor){cursor.style.left=e.clientX+'px';cursor.style.top=e.clientY+'px'}});
-const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')}),{threshold:.12});
-document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
-addEventListener('scroll',()=>{const h=document.documentElement.scrollHeight-innerHeight;document.querySelector('#progress').style.width=(scrollY/h*100)+'%'});
+const progress=document.getElementById('progress');
+window.addEventListener('scroll',()=>{const h=document.documentElement;progress.style.width=(h.scrollTop/(h.scrollHeight-h.clientHeight)*100)+'%'});
+const obs=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(e=>obs.observe(e));
+let k=0,t;document.addEventListener('keydown',e=>{if(e.key.toLowerCase()==='k'){k++;clearTimeout(t);t=setTimeout(()=>k=0,900);if(k>=5){document.getElementById('secret').classList.add('on');k=0}}});
+function closeSecret(){document.getElementById('secret').classList.remove('on')}
 </script>
 </body>
 </html>
